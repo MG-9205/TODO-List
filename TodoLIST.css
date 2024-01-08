@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ background-image: linear-gradient(to right top, #053737, #06605f, #078c89, #09bab4, #12ebe1);;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 10px;
+    width: 60vh;
+    height: 80vh;
+    border-radius: 10px;
+    gap: 10px;
+}
+.heading{
+    display: flex;
+gap:10px;
+    align-items: center;
+    
+}
+.heading h1{
+    font-size: 1rem;
+    text-align: center;
+}
+.heading img{
+height: 40px;
+}
+.input span{
+    display:  flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.input{
+    width: 100%;
+}
+.input input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px  ;
+    padding: 10px 10px;
+    outline: none;
+    background-color: rgba(245, 240, 240, 0.954);
+}
+.input button{
+    border-radius: 50px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+.status-btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom:2px solid coral ;
+
+}
+.status-btn button{
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+.clear{
+    background-color: rgb(241, 83, 83) !important;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.task-list1{
+    width:100%;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(245, 240, 240, 0.954);
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+}
+.task-list{
+    width: 100%;
+    overflow: auto;
+    padding-top:10px ;
+}
+.task-list::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+.task-list div span{
+    width: 100%;
+    overflow-wrap: break-word;
+    min-height: 25px;
+    padding: 0 3px;
+
+
+}
+.task-list2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    background-color:  rgba(245, 240, 240, 0.954);
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.task-list3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    margin-bottom: 5px;
+    background-color:  rgba(245, 240, 240, 0.954);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+
+
+
